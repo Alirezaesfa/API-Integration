@@ -25,4 +25,26 @@ Clone this repository to your local machine:
 git clone https://github.com/Alirezaesfa/API-Integration.git
 cd API-Integration
 
+### Install Dependencies
+Use the following command to install the required Python dependencies from requirements.txt:
 
+```bash
+pip install -r requirements.txt
+
+### Set Up Your API Key
+Go to NewsAPI and sign up for an account.
+After signing up, you'll get an API key.
+Create a .env file in the root directory of the project and add the following line:
+
+```ini
+API_KEY=your_newsapi_api_key_here
+
+Replace your_newsapi_api_key_here with the actual API key you received from NewsAPI.
+
+### Run the Script
+Run the Python script to fetch the top 5 news articles:
+
+```bash
+python api_project.py
+
+The script will print the top 5 news articles from the US, under the "technology" category. You can change the country and category parameters in the script to get news for other regions or categories.
