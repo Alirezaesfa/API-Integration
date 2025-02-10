@@ -25,13 +25,13 @@ Clone this repository to your local machine:
 git clone https://github.com/Alirezaesfa/API-Integration.git
 cd API-Integration
 
-### Install Dependencies
+## Install Dependencies
 Use the following command to install the required Python dependencies from requirements.txt:
 
 ```bash
 pip install -r requirements.txt
 
-### Set Up Your API Key
+## Set Up Your API Key
 Go to NewsAPI and sign up for an account.
 After signing up, you'll get an API key.
 Create a .env file in the root directory of the project and add the following line:
