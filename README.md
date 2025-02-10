@@ -30,7 +30,8 @@ cd API-Integration
 Use the following command to install the required Python dependencies from requirements.txt:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Set Up Your API Key
 Go to NewsAPI and sign up for an account.
@@ -38,7 +39,8 @@ After signing up, you'll get an API key.
 Create a .env file in the root directory of the project and add the following line:
 
 ```ini
-API_KEY=your_newsapi_api_key_here```
+API_KEY=your_newsapi_api_key_here
+```
 
 Replace your_newsapi_api_key_here with the actual API key you received from NewsAPI.
 
@@ -46,6 +48,7 @@ Replace your_newsapi_api_key_here with the actual API key you received from News
 Run the Python script to fetch the top 5 news articles:
 
 ```bash
-python api_project.py```
+python api_project.py
+```
 
 The script will print the top 5 news articles from the US, under the "technology" category. You can change the country and category parameters in the script to get news for other regions or categories.
