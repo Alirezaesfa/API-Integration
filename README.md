@@ -23,7 +23,8 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/Alirezaesfa/API-Integration.git
-cd API-Integration```bash
+cd API-Integration
+```
 
 ## Install Dependencies
 Use the following command to install the required Python dependencies from requirements.txt:
